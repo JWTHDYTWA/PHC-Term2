@@ -75,7 +75,7 @@ def main():
     overlay = cv2.addWeighted(heatmap, 0.5, image, 0.5, 0)
 
     plt.imshow(overlay)
-    plt.savefig(os.path.join(root_dir, 'fig1.jpg'))
+    plt.savefig(os.path.join(root_dir, 'img/fig1.jpg'))
     plt.show()
 
 
